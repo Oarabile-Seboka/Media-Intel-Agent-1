@@ -8,29 +8,29 @@ A sophisticated News Intelligence Agent that transforms fragmented RSS feeds int
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ⚡ Blazing Fast Ingestion
+### Fast Ingestion
 - **Parallel Analysis**: Uses background `ThreadPoolExecutor` to process multiple articles simultaneously, reducing analysis time by up to 60%.
 - **Smart Pull Limits**: Configurable article limits for both manual and scheduled ingestion ensuring consistent performance.
 - **BeautifulSoup Optimized**: Robust HTML parsing with automatic tag discovery for featured images.
 
-### 📅 Smart Scheduling & Automation
+### Smart Scheduling & Automation
 - **Autonomous Ingestion**: Integrated `APScheduler` for robust background updates at configurable intervals (2h to Weekly).
 - **Graceful Shutdown**: Native FastAPI lifespan management ensures background tasks terminate cleanly.
 
-### 🔍 Advanced Feed Discovery
+### Advanced Feed Discovery
 - **Dynamic Filtration**: Effortlessly sort your feed by **Category** or **Date Range** (From/To).
 - **Persistence**: Filter states are automatically saved to your browser, so your view remains consistent across sessions.
 - **Bulk Article Life-cycle**: Support for individual article deletion or bulk clearing of the entire feed.
 
-### 🎨 Modern Flat UI
+### Modern Flat UI
 - **Premium Aesthetics**: A distraction-free, high-performance dark theme dashboard.
 - **Interactive Chat**: Natural language interface to query and discover insights from your persistent news database.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python 3.9+, FastAPI, APScheduler
 - **AI Engine**: Google Gemini API (google-genai)
